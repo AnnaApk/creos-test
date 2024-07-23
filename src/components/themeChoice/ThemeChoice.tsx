@@ -58,8 +58,8 @@ export function ThemeChoice() {
   return (
     <FormGroup>
       <FormControlLabel
-        control={<MaterialUISwitch sx={{ m: 1 }} checked={currentTheme === 'dark'} onChange={() => dispatch(toggleTheme()) } />}
-        label=""
+        control={<MaterialUISwitch sx={{ m: 1, margin: '0px' }} checked={currentTheme === 'dark'} onChange={() => dispatch(toggleTheme()) } />}
+        label=''
       />
     </FormGroup>
   )

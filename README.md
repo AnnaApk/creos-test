@@ -34,4 +34,7 @@ date-fns
 i18next
 mui
 react-redux toolkit
+axios useQuery
+
+- написать открываание комментария по нажатию на кнопку
 

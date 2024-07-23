@@ -1,5 +1,12 @@
 {
   "work week" : "Work week",
   "ru flag" : "The flag of the Russian Federation",
-  "en flag" : "The flag of the USA"
+  "en flag" : "The flag of the USA",
+  "days" : "days",
+  "hours" : "hours",
+  "minutes" : "minutes",
+  "issue" : "issue",
+  "top 10" : "Top 10 designers",
+  "median" : "Median :",
+  "done issues" : "Done issues :"
 }

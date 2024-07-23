@@ -6,7 +6,17 @@
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  #root {
+    padding: .8rem;
+  }
+}
 
+@media screen and (max-width: 400px) {
+  p {
+    font-size: .8rem;
+  }
+}
 
 @keyframes logo-spin {
   from {
