@@ -1,10 +1,10 @@
 import { Avatar, ListItemText, Typography, styled } from "@mui/material";
-import { Issue } from "../../interfaces/interfaces";
+import { IComment } from "../../interfaces/interfaces";
 import { differenceInDays, differenceInHours, differenceInMinutes } from "date-fns";
 import { useTranslation } from "react-i18next";
 
 interface IProps {
-  card: Issue;
+  card: IComment;
 }
 
 const StyledTypography = styled(Typography)`
